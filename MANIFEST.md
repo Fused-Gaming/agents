@@ -1,15 +1,15 @@
-# Fused Gaming Agents - Rock Hardened Manifest v1.0.0
+# Fused Gaming Agents - Rock Hardened Manifest v1.0.1
 
 **Release Date**: 2026-09-30  
 **Status**: STABLE | ROCK HARDENED  
-**Revision**: 2493531 (main)  
-**Integrity**: sha256-AGENTS-v1.0.0
+**Revision**: c07fa9f (main)  
+**Integrity**: sha256-AGENTS-v1.0.1
 
 ## Repository Information
 
 - **Repository**: Fused-Gaming/agents
 - **Type**: Agents Marketplace
-- **Version**: 1.0.0
+- **Version**: 1.0.1
 - **License**: Apache-2.0 + Non-Commercial
 - **Copyright**: Fused Gaming Inc.
 
@@ -17,9 +17,10 @@
 
 | Item | Count | Status |
 |------|-------|--------|
-| Agents | 80+ | ✅ Cataloged |
-| Categories | 24 | ✅ Organized |
-| Agent Prompts | 80+ | ✅ Complete |
+| Agents | 89 | ✅ Cataloged |
+| Categories | 25 | ✅ Organized |
+| Legal Agents | 9 | ✅ Integrated |
+| Agent Prompts | 109 | ✅ Complete |
 | Frameworks | 8 | ✅ Integrated |
 | Documentation Files | 4 | ✅ Complete |
 | Configuration Files | 1 | ✅ Locked |
@@ -30,7 +31,7 @@
 - ✅ **Locked Dependencies**: All versions pinned
 - ✅ **Reproducible Build**: package-lock.json
 - ✅ **Version Manifest**: VERSION.json
-- ✅ **Integrity Checksum**: sha256-AGENTS-v1.0.0
+- ✅ **Integrity Checksum**: sha256-AGENTS-v1.0.1
 
 ### Security Verification
 - ✅ **License Verification**: Apache-2.0
@@ -56,16 +57,16 @@
 
 | Repository | Version | Required | Status |
 |-----------|---------|----------|--------|
-| skills | 1.0.0 | ✅ Required | Pinned |
+| skills | 1.0.1 | ✅ Required | Pinned |
 | tools | 1.0.0 | ✅ Required | Pinned |
 
 ## Cross-Repository References
 
 ### Skills Marketplace
 - **URL**: https://github.com/Fused-Gaming/skills
-- **Version**: 1.0.0
+- **Version**: 1.0.1
 - **Status**: Required integration
-- **Checksum**: sha256-SKILLS-v1.0.0
+- **Checksum**: sha256-SKILLS-v1.0.1
 
 ### Tools Marketplace
 - **URL**: https://github.com/Fused-Gaming/tools
