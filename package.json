@@ -1,0 +1,44 @@
+{
+  "name": "@fused-gaming/agents",
+  "version": "1.0.0",
+  "description": "Comprehensive marketplace of 100+ specialized Claude agents for diverse use cases",
+  "main": "marketplace.json",
+  "type": "module",
+  "scripts": {
+    "marketplace:generate": "node scripts/generate-marketplace.js",
+    "marketplace:browse": "node scripts/marketplace-cli.js",
+    "marketplace:search": "node scripts/marketplace-cli.js --search",
+    "marketplace:stats": "node scripts/marketplace-cli.js --stats",
+    "agents:list": "jq '.agents[] | {name: .name, category: .category, id: .id}' marketplace.json",
+    "agents:by-category": "jq 'group_by(.category) | map({category: .[0].category, count: length, agents: [.[].name]})' marketplace.json",
+    "agents:search": "jq '.agents[] | select(.name | ascii_downcase | contains(ARGS.positional[0]))' --args"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fused-Gaming/agents.git"
+  },
+  "keywords": [
+    "agents",
+    "claude",
+    "ai",
+    "marketplace",
+    "swarms",
+    "llm",
+    "automation"
+  ],
+  "author": "Fused Gaming",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "jq": "^1.7.1"
+  },
+  "files": [
+    "agent-prompts/",
+    "marketplace.json",
+    "scripts/",
+    "MARKETPLACE.md",
+    "README.md"
+  ]
+}
