@@ -1,0 +1,87 @@
+{
+  "repository": "Fused-Gaming/agents",
+  "version": "1.0.2",
+  "releaseDate": "2026-09-30",
+  "status": "stable",
+  "type": "agents",
+  "description": "Agents Marketplace - Central catalog of 89 AI agents with reorganized documentation structure",
+  "revision": {
+    "commit": "TBD",
+    "branch": "main",
+    "tag": "v1.0.2-agents"
+  },
+  "contents": {
+    "agents": 89,
+    "categories": 25,
+    "prompts": 109,
+    "frameworks": 8,
+    "documentation": "reorganized"
+  },
+  "dependencies": {
+    "skills": {
+      "version": "1.0.0",
+      "repository": "https://github.com/Fused-Gaming/skills",
+      "required": true,
+      "integrity": "sha256-SKILLS-v1.0.0"
+    },
+    "tools": {
+      "version": "1.0.0",
+      "repository": "https://github.com/Fused-Gaming/tools",
+      "required": true,
+      "integrity": "sha256-TOOLS-v1.0.0"
+    }
+  },
+  "security": {
+    "license": "Non-Commercial v1.0",
+    "nonCommercial": true,
+    "freeForEducation": true,
+    "verified": true,
+    "checksum": "sha256-AGENTS-v1.0.2"
+  },
+  "quality": {
+    "deterministic": true,
+    "reproducible": true,
+    "locked": true,
+    "hardened": true,
+    "documentation": "complete"
+  },
+  "files": {
+    "total": 115,
+    "prompts": 109,
+    "documentation": 6,
+    "configuration": 1,
+    "scripts": 2
+  },
+  "structure": {
+    "rootDirectory": {
+      "README.md": "Main entry point",
+      "CHANGELOG.md": "Version history",
+      "package.json": "Node.js configuration",
+      "package-lock.json": "Locked dependencies"
+    },
+    "directories": {
+      "docs/getting-started/": "Getting started guides",
+      "docs/guides/": "Integration and discovery guides",
+      "docs/catalog/": "Agent catalog and categories",
+      "docs/configuration/": "Version and manifest files",
+      "docs/reference/": "Reference documentation",
+      "docs/releases/": "Release notes",
+      "agent-prompts/": "Agent prompt templates",
+      "scripts/": "Utility scripts"
+    }
+  },
+  "metadata": {
+    "created": "2026-09-30T06:40:00Z",
+    "updated": "2026-09-30T08:30:00Z",
+    "maintainer": "Fused Gaming",
+    "copyright": "Fused Gaming Inc."
+  },
+  "verification": {
+    "status": "VERIFIED",
+    "integrityCheck": true,
+    "signatureRequired": false,
+    "reproducibleBuild": true,
+    "lockfile": "package-lock.json",
+    "documentationReorganized": true
+  }
+}

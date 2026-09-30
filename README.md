@@ -1,275 +1,93 @@
-# Fused Gaming Agents Repository
+# Fused Gaming Agents Marketplace
 
-Central repository for all AI agents and agent prompt templates in the Fused Gaming ecosystem.
+A centralized, rock-hardened marketplace of 89+ production-ready AI agents and prompt templates for the Claude ecosystem.
 
-## Overview
+## 🚀 Quick Start
 
-This repository contains 80+ specialized AI agents organized across 24 categories, providing a comprehensive framework for multi-agent systems, workflow orchestration, and intelligent automation.
-
-## Agent Categories
-
-### Core Categories
-
-**GitHub Integration (13 agents)**
-- Repository management
-- Issue tracking and automation
-- Pull request handling
-- Webhook management
-- Workflow automation
-
-**V3 Framework (10 agents)**
-- V3 framework implementation
-- Specification compliance
-- Integration utilities
-- Framework extensions
-
-**Agent Templates (9 agents)**
-- Pre-built agent blueprints
-- Rapid deployment templates
-- Customizable scaffolding
-- Common use cases
-
-**Flow Nexus (9 agents)**
-- Workflow orchestration
-- Intelligent flow routing
-- State management
-- Complex pipeline handling
-
-**Consensus Algorithms (7 agents)**
-- Multi-agent consensus
-- Distributed decision-making
-- Voting mechanisms
-- Agreement protocols
-
-### Multi-Agent Frameworks
-
-**Swarm Intelligence (5 agents)**
-- Swarm coordination
-- Collective behavior
-- Emergent intelligence
-- Collaborative problem-solving
-
-**Hive Mind (5 agents)**
-- Unified intelligence systems
-- Agent synthesis
-- Knowledge sharing
-- Collective reasoning
-
-**Optimization (5 agents)**
-- Performance optimization
-- Resource allocation
-- Load balancing
-- Efficiency tuning
-
-**Sublinear Processing (5 agents)**
-- Efficient algorithms
-- Sublinear complexity
-- Scalable processing
-- Performance optimization
-
-**Core Agents (5 agents)**
-- Foundational implementations
-- Base functionality
-- Extensible frameworks
-- Common patterns
-
-### Specialized Frameworks
-
-**SPARC (4 agents)**
-- Specialized Reasoning and Planning with SPARC
-- Planning algorithms
-- Reasoning engines
-- Execution frameworks
-
-**Goal Management (3 agents)**
-- Goal-oriented planning
-- Task hierarchies
-- Milestone tracking
-- Execution management
-
-**Dual Mode (3 agents)**
-- Analytical processing mode
-- Creative processing mode
-- Mode switching
-- Flexible reasoning
-
-**Testing (2 agents)**
-- Test validation
-- Quality assurance
-- Coverage analysis
-- Test generation
-
-**Analysis (2 agents)**
-- System analysis
-- Pattern detection
-- Insight generation
-- Reporting
-
-### Other Categories
-
-- **SONA Framework** (1) - SONA implementation
-- **Payment Processing** (1) - Transaction handling
-- **Development Support** (1) - Coding assistance
-- **Custom Builders** (1) - Agent creation tools
-- **Architecture** (0) - Coming soon
-- **DevOps** (0) - Coming soon
-- **Documentation** (0) - Coming soon
-- **Specialized** (0) - Custom domain agents
-
-## Marketplace Registry
-
-Complete agent metadata available in `marketplace-registry.json`:
-- Agent names and IDs
-- Category classification
-- Capabilities and features
-- Status (active/beta/deprecated)
-- License information
-
-### Quick Access
-
-```json
-// All agents
-marketplace-registry.json
-
-// Query by category
-registry.agents.filter(a => a.category === "github")
-
-// Search by capability
-registry.agents.filter(a => a.capabilities.includes("workflow-orchestration"))
-```
-
-## Getting Started
-
-### 1. Browse Available Agents
-
-View `AGENTS_CATALOG.md` for organized directory by category.
-
-### 2. Select an Agent
-
-Choose an agent that matches your needs:
-- GitHub integration agents for repo automation
-- Swarm intelligence for multi-agent systems
-- Templates for rapid deployment
-- Flow Nexus for workflow orchestration
-
-### 3. Load Agent Prompt
+For complete documentation, see [Getting Started Guide](./docs/getting-started/README.md)
 
 ```bash
-cat agent-prompts/[category]/[agent-name].md
+# Browse agents
+npm run agents:list
+
+# Search by category
+npm run agents:by-category
+
+# Search agents
+npm run agents:search "keyword"
 ```
 
-### 4. Customize Configuration
+## 📚 Documentation
 
-Adapt the agent prompt to your specific requirements.
+- **[Getting Started](./docs/getting-started/)** - Setup and quick start guides
+- **[Guides](./docs/guides/)** - How to add agents, discovery process
+- **[Agent Catalog](./docs/catalog/)** - Complete list of all agents by category
+- **[Configuration](./docs/configuration/)** - Versioning, manifests, and setup
+- **[Reference](./docs/reference/)** - Marketplace specs, registry, and reports
+- **[Releases](./docs/releases/)** - Version history and release notes
 
-### 5. Deploy Agent
+## 📋 Available Commands
 
-Integrate the configured agent into your system.
+```bash
+# Marketplace operations
+npm run marketplace:generate    # Generate marketplace registry
+npm run marketplace:browse      # Interactive marketplace browser
+npm run marketplace:search      # Search agents
+npm run marketplace:stats       # View statistics
 
-## Agent Structure
-
-Each agent includes:
-- **ID**: Unique identifier
-- **Category**: Classification
-- **Description**: Purpose and capabilities
-- **Capabilities**: Feature list
-- **Status**: Active/Beta/Deprecated
-- **Configuration**: Customization options
-
-## Statistics
-
-- **Total Agents**: 80+
-- **Active Agents**: 80
-- **Categories**: 24
-- **Top Category**: GitHub (13 agents)
-- **License**: Non-Commercial (Free for education/individual use)
-
-## License
-
-**Fused Gaming Agents - Non-Commercial License v1.0**
-
-- ✅ **Free for**: Individual use, education, research, academic institutions
-- ❌ **Not free for**: Commercial use, revenue-generating services, business applications
-
-### License Terms
-
-This software is **free** for:
-- Personal projects and experiments
-- Educational purposes and learning
-- Academic and research institutions
-- Student projects and assignments
-- Non-profit activities
-
-**Commercial use requires a separate commercial license.** Contact license@vln.gg for commercial licensing.
-
-See [LICENSE](./LICENSE) file for complete terms.
-
-## Agent Prompt Structure
-
-Each agent prompt file contains:
-- **Role**: Agent's primary function
-- **Objectives**: Core goals
-- **Capabilities**: Available functions
-- **Constraints**: Operating limitations
-- **Behaviors**: Response patterns
-- **Examples**: Usage demonstrations
-
-## Related Repositories
-
-- **Skills Marketplace**: https://github.com/Fused-Gaming/skills
-- **Tools Marketplace**: https://github.com/Fused-Gaming/tools
-- **Main MCP Repository**: https://github.com/Fused-Gaming/Fused-Gaming-Skill-MCP
-
-## Integration Examples
-
-### GitHub Agent Integration
-
-```
-Use agents from agent-prompts/github/ for:
-- Automating repository tasks
-- Managing issues and PRs
-- Coordinating deployments
-- Tracking project progress
+# Agent operations
+npm run agents:list             # List all agents
+npm run agents:by-category      # Group agents by category
+npm run agents:search           # Search specific agents
+npm run agents:version-control  # Update version headers
+npm run agents:manifest         # View agents manifest
+npm run agents:verify           # Verify agent versions
 ```
 
-### Multi-Agent Coordination
+## 🎯 Features
 
-```
-Use agents from:
-- agent-prompts/swarm/ - Swarm-based coordination
-- agent-prompts/consensus/ - Distributed decisions
-- agent-prompts/hive-mind/ - Unified intelligence
-```
+- **89+ Agents** across 25 categories
+- **Version Controlled** - Complete tracking and integrity verification
+- **Rock-Hardened** - Reproducible builds, locked dependencies
+- **Well-Documented** - Complete metadata and specifications
+- **Non-Commercial License** - Free for education and individual use
+- **Production-Ready** - Tested, verified, and maintained
 
-### Workflow Orchestration
+## 📊 Statistics
 
-```
-Use agents from:
-- agent-prompts/flow-nexus/ - Complex workflows
-- agent-prompts/goal/ - Goal-oriented execution
-- agent-prompts/templates/ - Rapid deployment
-```
+- **Total Agents**: 89
+- **Categories**: 25
+- **Agent Prompts**: 109
+- **Frameworks**: 8
 
-## Contributing
+### Major Categories
 
-Contributions welcome! Please ensure:
-- Agent prompts are well-documented
-- Capabilities are clearly defined
-- Examples are provided
-- License terms are retained
+- GitHub Integration (13 agents)
+- V3 Framework (10 agents)
+- Agent Templates (9 agents)
+- Flow Nexus (9 agents)
+- Consensus (7 agents)
+- Legal Services (9 agents)
+- And 13 more...
 
-## Support
+## 🔒 Licensing
 
-For questions or agent requests:
-- Check AGENTS_CATALOG.md
-- Review marketplace-registry.json
-- Open GitHub issues
-- Email: license@vln.gg
+All agents are available under the **Non-Commercial License v1.0**:
+- ✅ Free for individual use
+- ✅ Free for educational institutions
+- ❌ Requires commercial license for business use
 
-## Roadmap
+**Commercial Licensing**: [license@vln.gg](mailto:license@vln.gg)
 
-Planned agent additions:
-- Architecture analysis agents
-- DevOps automation agents
-- Documentation generation agents
-- Domain-specific specialized agents
+## 🛠️ Recent Changes
+
+See [CHANGELOG.md](./CHANGELOG.md) for detailed version history.
+
+## 📝 License
+
+Non-Commercial License v1.0 - See LICENSE file for details
+
+---
+
+**Repository**: [Fused-Gaming/agents](https://github.com/Fused-Gaming/agents)  
+**Maintained by**: Fused Gaming Inc.

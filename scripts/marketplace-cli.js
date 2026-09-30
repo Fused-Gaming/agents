@@ -7,11 +7,15 @@
  * in the agent marketplace.
  */
 
-const fs = require('fs');
-const path = require('path');
-const readline = require('readline');
+import fs from 'fs';
+import path from 'path';
+import readline from 'readline';
+import { fileURLToPath } from 'url';
 
-const MARKETPLACE_FILE = path.join(__dirname, '../marketplace.json');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const MARKETPLACE_FILE = path.join(__dirname, '../docs/reference/marketplace.json');
 
 class MarketplaceCLI {
   constructor() {
@@ -314,9 +318,9 @@ File:              ${agent.path}
 }
 
 // Run CLI if executed directly
-if (require.main === module) {
+if (import.meta.url === `file://${process.argv[1]}`) {
   const cli = new MarketplaceCLI();
   cli.start();
 }
 
-module.exports = MarketplaceCLI;
+export default MarketplaceCLI;

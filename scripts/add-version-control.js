@@ -8,8 +8,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const AGENT_PROMPTS_DIR = path.join(process.cwd(), 'agent-prompts');
-const MANIFEST_FILE = path.join(process.cwd(), 'agents-manifest.json');
-const VERSION_FILE = path.join(process.cwd(), 'VERSION.json');
+const MANIFEST_FILE = path.join(process.cwd(), 'docs', 'reference', 'agents-manifest.json');
+const VERSION_FILE = path.join(process.cwd(), 'docs', 'configuration', 'VERSION.json');
 
 // Read VERSION.json to get current version info
 const versionData = JSON.parse(fs.readFileSync(VERSION_FILE, 'utf8'));
@@ -163,14 +163,14 @@ function updatePackageJson() {
   // Add agent tracking scripts
   packageData.scripts = packageData.scripts || {};
   packageData.scripts['agents:version-control'] = 'node scripts/add-version-control.js';
-  packageData.scripts['agents:manifest'] = 'cat agents-manifest.json';
-  packageData.scripts['agents:verify'] = 'jq \'.stats\' agents-manifest.json';
+  packageData.scripts['agents:manifest'] = 'cat docs/reference/agents-manifest.json';
+  packageData.scripts['agents:verify'] = 'jq \'.stats\' docs/reference/agents-manifest.json';
 
   // Add agents field to track metadata
   packageData.agents = {
     version: currentVersion,
     totalCount: 89,
-    manifestFile: 'agents-manifest.json',
+    manifestFile: 'docs/reference/agents-manifest.json',
     versionControl: {
       enabled: true,
       headerFormat: 'html-comment',
