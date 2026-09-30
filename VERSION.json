@@ -1,0 +1,66 @@
+{
+  "repository": "Fused-Gaming/agents",
+  "version": "1.0.0",
+  "releaseDate": "2026-09-30",
+  "status": "stable",
+  "type": "agents",
+  "description": "Agents Marketplace - Central catalog of 80+ AI agents and agent prompt templates",
+  "revision": {
+    "commit": "2493531",
+    "branch": "main",
+    "tag": "v1.0.0-agents"
+  },
+  "contents": {
+    "agents": 80,
+    "categories": 24,
+    "prompts": 80,
+    "frameworks": 8
+  },
+  "dependencies": {
+    "skills": {
+      "version": "1.0.0",
+      "repository": "https://github.com/Fused-Gaming/skills",
+      "required": true,
+      "integrity": "sha256-SKILLS-v1.0.0"
+    },
+    "tools": {
+      "version": "1.0.0",
+      "repository": "https://github.com/Fused-Gaming/tools",
+      "required": true,
+      "integrity": "sha256-TOOLS-v1.0.0"
+    }
+  },
+  "security": {
+    "license": "Apache-2.0",
+    "nonCommercial": true,
+    "freeForEducation": true,
+    "verified": true,
+    "checksum": "sha256-AGENTS-v1.0.0"
+  },
+  "quality": {
+    "deterministic": true,
+    "reproducible": true,
+    "locked": true,
+    "hardened": true,
+    "documentation": "complete"
+  },
+  "files": {
+    "total": 85,
+    "prompts": 80,
+    "documentation": 4,
+    "configuration": 1
+  },
+  "metadata": {
+    "created": "2026-09-30T06:40:00Z",
+    "updated": "2026-09-30T06:50:00Z",
+    "maintainer": "Fused Gaming",
+    "copyright": "Fused Gaming Inc."
+  },
+  "verification": {
+    "status": "VERIFIED",
+    "integrityCheck": true,
+    "signatureRequired": false,
+    "reproducibleBuild": true,
+    "lockfile": "package-lock.json"
+  }
+}
