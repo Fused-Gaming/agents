@@ -1,0 +1,427 @@
+{
+  "registry": {
+    "version": "1.0.0",
+    "name": "Fused Gaming Agents Marketplace",
+    "description": "Central catalog of all available AI agents and agent prompt templates in the Fused Gaming ecosystem",
+    "lastUpdated": "2026-09-30T06:45:00Z",
+    "source": "Fused-Gaming/agents",
+    "totalAgents": 80,
+    "totalCategories": 24,
+    "agents": [
+      {
+        "id": "github-api-manager",
+        "name": "GitHub API Manager",
+        "category": "github",
+        "status": "active",
+        "description": "Manage GitHub repositories, issues, and pull requests programmatically",
+        "capabilities": ["repo-management", "issue-tracking", "pr-handling", "automation"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["github", "api", "devops", "automation"]
+      },
+      {
+        "id": "performance-optimizer",
+        "name": "Performance Optimizer",
+        "category": "optimization",
+        "status": "active",
+        "description": "Optimize application performance and resource utilization",
+        "capabilities": ["performance-analysis", "bottleneck-detection", "optimization-recommendations"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["optimization", "performance", "monitoring"]
+      },
+      {
+        "id": "load-balancer",
+        "name": "Load Balancer",
+        "category": "optimization",
+        "status": "active",
+        "description": "Distribute workload efficiently across resources",
+        "capabilities": ["load-distribution", "resource-allocation", "balancing"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["optimization", "infrastructure", "performance"]
+      },
+      {
+        "id": "resource-allocator",
+        "name": "Resource Allocator",
+        "category": "optimization",
+        "status": "active",
+        "description": "Allocate computational resources optimally",
+        "capabilities": ["resource-management", "allocation-strategies", "utilization"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["optimization", "resources", "infrastructure"]
+      },
+      {
+        "id": "flow-nexus-orchestrator",
+        "name": "Flow Nexus Orchestrator",
+        "category": "flow-nexus",
+        "status": "active",
+        "description": "Orchestrate complex workflows with intelligent flow routing",
+        "capabilities": ["workflow-orchestration", "flow-routing", "state-management"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["workflow", "orchestration", "automation"]
+      },
+      {
+        "id": "consensus-builder",
+        "name": "Consensus Builder",
+        "category": "consensus",
+        "status": "active",
+        "description": "Build consensus among multiple agents with distributed decision-making",
+        "capabilities": ["consensus-algorithm", "multi-agent-coordination", "voting"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["consensus", "multi-agent", "coordination"]
+      },
+      {
+        "id": "swarm-coordinator",
+        "name": "Swarm Coordinator",
+        "category": "swarm",
+        "status": "active",
+        "description": "Coordinate swarm of agents for collaborative problem-solving",
+        "capabilities": ["swarm-intelligence", "agent-coordination", "collective-behavior"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["swarm", "coordination", "multi-agent"]
+      },
+      {
+        "id": "hive-mind-orchestrator",
+        "name": "Hive Mind Orchestrator",
+        "category": "hive-mind",
+        "status": "active",
+        "description": "Create unified intelligence from multiple specialized agents",
+        "capabilities": ["unified-intelligence", "agent-synthesis", "knowledge-sharing"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["hive-mind", "multi-agent", "intelligence"]
+      },
+      {
+        "id": "goal-planner",
+        "name": "Goal Planner",
+        "category": "goal",
+        "status": "active",
+        "description": "Plan and manage goal-oriented tasks with hierarchical decomposition",
+        "capabilities": ["goal-planning", "task-decomposition", "milestone-tracking"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["goal-management", "planning", "execution"]
+      },
+      {
+        "id": "template-agent",
+        "name": "Template Agent",
+        "category": "templates",
+        "status": "active",
+        "description": "Use pre-built agent templates for common tasks",
+        "capabilities": ["template-instantiation", "customization", "rapid-deployment"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["templates", "scaffolding", "rapid-development"]
+      },
+      {
+        "id": "sparc-agent",
+        "name": "SPARC Agent",
+        "category": "sparc",
+        "status": "active",
+        "description": "Specialized reasoning and planning agent framework",
+        "capabilities": ["reasoning", "planning", "execution"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["sparc", "reasoning", "planning"]
+      },
+      {
+        "id": "dual-mode-processor",
+        "name": "Dual Mode Processor",
+        "category": "dual-mode",
+        "status": "active",
+        "description": "Switch between analytical and creative processing modes",
+        "capabilities": ["mode-switching", "analytical-thinking", "creative-thinking"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["dual-mode", "flexibility", "processing"]
+      },
+      {
+        "id": "test-validator",
+        "name": "Test Validator",
+        "category": "testing",
+        "status": "active",
+        "description": "Validate and verify test coverage and quality",
+        "capabilities": ["test-validation", "coverage-analysis", "quality-assurance"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["testing", "validation", "quality"]
+      },
+      {
+        "id": "data-analyzer",
+        "name": "Data Analyzer",
+        "category": "data",
+        "status": "active",
+        "description": "Analyze data patterns and extract insights",
+        "capabilities": ["data-analysis", "pattern-detection", "insight-extraction"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["data", "analytics", "insights"]
+      },
+      {
+        "id": "payment-processor",
+        "name": "Payment Processor",
+        "category": "payments",
+        "status": "active",
+        "description": "Handle payment processing and transaction management",
+        "capabilities": ["payment-handling", "transaction-management", "compliance"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["payments", "transactions", "finance"]
+      },
+      {
+        "id": "development-assistant",
+        "name": "Development Assistant",
+        "category": "development",
+        "status": "active",
+        "description": "Assist with software development tasks and code generation",
+        "capabilities": ["code-generation", "development-support", "debugging"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["development", "coding", "assistance"]
+      },
+      {
+        "id": "custom-agent-builder",
+        "name": "Custom Agent Builder",
+        "category": "custom",
+        "status": "active",
+        "description": "Build and configure custom agents for specific needs",
+        "capabilities": ["agent-creation", "customization", "configuration"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["custom", "builder", "configuration"]
+      },
+      {
+        "id": "sona-expert",
+        "name": "SONA Expert",
+        "category": "sona",
+        "status": "active",
+        "description": "Specialized agent for SONA framework implementation",
+        "capabilities": ["sona-framework", "implementation", "optimization"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["sona", "framework", "implementation"]
+      },
+      {
+        "id": "sublinear-processor",
+        "name": "Sublinear Processor",
+        "category": "sublinear",
+        "status": "active",
+        "description": "Process tasks with sublinear complexity algorithms",
+        "capabilities": ["efficient-processing", "scalability", "optimization"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["sublinear", "efficiency", "algorithms"]
+      },
+      {
+        "id": "v3-framework-agent",
+        "name": "V3 Framework Agent",
+        "category": "v3",
+        "status": "active",
+        "description": "Agent implementation using V3 framework specifications",
+        "capabilities": ["v3-framework", "specification-compliance", "integration"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["v3", "framework", "specification"]
+      },
+      {
+        "id": "core-agent",
+        "name": "Core Agent",
+        "category": "core",
+        "status": "active",
+        "description": "Core foundational agent for base functionality",
+        "capabilities": ["core-functionality", "base-features", "extensibility"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["core", "foundation", "base"]
+      },
+      {
+        "id": "analysis-engine",
+        "name": "Analysis Engine",
+        "category": "analysis",
+        "status": "active",
+        "description": "Analyze complex systems and provide insights",
+        "capabilities": ["system-analysis", "insight-generation", "reporting"],
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "tags": ["analysis", "reporting", "insights"]
+      }
+    ]
+  },
+  "categories": [
+    "github",
+    "optimization",
+    "flow-nexus",
+    "consensus",
+    "swarm",
+    "hive-mind",
+    "goal",
+    "templates",
+    "sparc",
+    "dual-mode",
+    "testing",
+    "data",
+    "payments",
+    "development",
+    "custom",
+    "sona",
+    "sublinear",
+    "v3",
+    "core",
+    "analysis",
+    "architecture",
+    "devops",
+    "documentation",
+    "specialized"
+  ],
+  "categoryBreakdown": {
+    "github": {
+      "name": "GitHub Integration",
+      "count": 13,
+      "description": "Agents for GitHub repository, PR, and issue management"
+    },
+    "v3": {
+      "name": "V3 Framework",
+      "count": 10,
+      "description": "Agents implementing V3 framework specifications"
+    },
+    "templates": {
+      "name": "Agent Templates",
+      "count": 9,
+      "description": "Pre-built agent templates for rapid deployment"
+    },
+    "flow-nexus": {
+      "name": "Flow Nexus",
+      "count": 9,
+      "description": "Workflow orchestration and intelligent flow routing"
+    },
+    "consensus": {
+      "name": "Consensus Algorithms",
+      "count": 7,
+      "description": "Multi-agent consensus and distributed decision-making"
+    },
+    "swarm": {
+      "name": "Swarm Intelligence",
+      "count": 5,
+      "description": "Swarm-based agent coordination and collaboration"
+    },
+    "sublinear": {
+      "name": "Sublinear Processing",
+      "count": 5,
+      "description": "Efficient algorithms with sublinear complexity"
+    },
+    "optimization": {
+      "name": "Performance Optimization",
+      "count": 5,
+      "description": "Performance tuning and resource optimization agents"
+    },
+    "hive-mind": {
+      "name": "Hive Mind",
+      "count": 5,
+      "description": "Unified intelligence from multiple agents"
+    },
+    "core": {
+      "name": "Core Agents",
+      "count": 5,
+      "description": "Foundational core agents and base implementations"
+    },
+    "sparc": {
+      "name": "SPARC Framework",
+      "count": 4,
+      "description": "Specialized Reasoning and Planning with SPARC"
+    },
+    "goal": {
+      "name": "Goal Management",
+      "count": 3,
+      "description": "Goal-oriented planning and execution agents"
+    },
+    "dual-mode": {
+      "name": "Dual Mode",
+      "count": 3,
+      "description": "Agents with analytical and creative modes"
+    },
+    "testing": {
+      "name": "Testing Agents",
+      "count": 2,
+      "description": "Test validation and quality assurance agents"
+    },
+    "analysis": {
+      "name": "Analysis",
+      "count": 2,
+      "description": "System analysis and insight generation agents"
+    },
+    "sona": {
+      "name": "SONA Framework",
+      "count": 1,
+      "description": "SONA framework implementation agents"
+    },
+    "payments": {
+      "name": "Payment Processing",
+      "count": 1,
+      "description": "Payment and transaction handling agents"
+    },
+    "development": {
+      "name": "Development Support",
+      "count": 1,
+      "description": "Software development assistance agents"
+    },
+    "custom": {
+      "name": "Custom Builders",
+      "count": 1,
+      "description": "Custom agent builder and configuration"
+    },
+    "architecture": {
+      "name": "Architecture",
+      "count": 0,
+      "description": "System architecture and design agents"
+    },
+    "devops": {
+      "name": "DevOps",
+      "count": 0,
+      "description": "DevOps and infrastructure agents"
+    },
+    "documentation": {
+      "name": "Documentation",
+      "count": 0,
+      "description": "Documentation generation and management agents"
+    },
+    "specialized": {
+      "name": "Specialized Agents",
+      "count": 0,
+      "description": "Specialized domain-specific agents"
+    }
+  },
+  "stats": {
+    "totalAgents": 80,
+    "totalCategories": 24,
+    "activeAgents": 80,
+    "betaAgents": 0,
+    "deprecatedAgents": 0,
+    "topCategories": [
+      {
+        "name": "GitHub",
+        "count": 13
+      },
+      {
+        "name": "V3 Framework",
+        "count": 10
+      },
+      {
+        "name": "Templates",
+        "count": 9
+      },
+      {
+        "name": "Flow Nexus",
+        "count": 9
+      },
+      {
+        "name": "Consensus",
+        "count": 7
+      }
+    ]
+  }
+}
