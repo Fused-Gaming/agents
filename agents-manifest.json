@@ -1,0 +1,944 @@
+{
+  "repository": "Fused-Gaming/agents",
+  "version": "1.0.1",
+  "lastUpdated": "2026-09-30T08:05:00Z",
+  "status": "active",
+  "description": "Agent prompt files version tracking manifest",
+  "stats": {
+    "totalAgents": 109,
+    "categoriesCount": 25,
+    "filesUpdated": 109,
+    "fileVersion": "1.0.1"
+  },
+  "agents": {
+    "analysis": [
+      {
+        "id": "analyze-code-quality",
+        "file": "analysis/analyze-code-quality.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "code-analyzer",
+        "file": "analysis/code-analyzer.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "analyze-code-quality",
+        "file": "analysis/code-review/analyze-code-quality.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "architecture": [
+      {
+        "id": "arch-system-design",
+        "file": "architecture/system-design/arch-system-design.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "consensus": [
+      {
+        "id": "byzantine-coordinator",
+        "file": "consensus/byzantine-coordinator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "crdt-synchronizer",
+        "file": "consensus/crdt-synchronizer.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "gossip-coordinator",
+        "file": "consensus/gossip-coordinator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "performance-benchmarker",
+        "file": "consensus/performance-benchmarker.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "quorum-manager",
+        "file": "consensus/quorum-manager.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "raft-manager",
+        "file": "consensus/raft-manager.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "security-manager",
+        "file": "consensus/security-manager.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "core": [
+      {
+        "id": "coder",
+        "file": "core/coder.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "planner",
+        "file": "core/planner.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "researcher",
+        "file": "core/researcher.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "reviewer",
+        "file": "core/reviewer.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "tester",
+        "file": "core/tester.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "custom": [
+      {
+        "id": "test-long-runner",
+        "file": "custom/test-long-runner.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "data": [
+      {
+        "id": "data-ml-model",
+        "file": "data/ml/data-ml-model.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "development": [
+      {
+        "id": "dev-backend-api",
+        "file": "development/backend/dev-backend-api.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "dev-backend-api",
+        "file": "development/dev-backend-api.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "devops": [
+      {
+        "id": "ops-cicd-github",
+        "file": "devops/ci-cd/ops-cicd-github.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "documentation": [
+      {
+        "id": "docs-api-openapi",
+        "file": "documentation/api-docs/docs-api-openapi.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "dual-mode": [
+      {
+        "id": "codex-coordinator",
+        "file": "dual-mode/codex-coordinator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "codex-worker",
+        "file": "dual-mode/codex-worker.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "dual-orchestrator",
+        "file": "dual-mode/dual-orchestrator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "flow-nexus": [
+      {
+        "id": "app-store",
+        "file": "flow-nexus/app-store.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "authentication",
+        "file": "flow-nexus/authentication.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "challenges",
+        "file": "flow-nexus/challenges.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "neural-network",
+        "file": "flow-nexus/neural-network.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "payments",
+        "file": "flow-nexus/payments.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "sandbox",
+        "file": "flow-nexus/sandbox.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "swarm",
+        "file": "flow-nexus/swarm.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "user-tools",
+        "file": "flow-nexus/user-tools.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "workflow",
+        "file": "flow-nexus/workflow.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "github": [
+      {
+        "id": "code-review-swarm",
+        "file": "github/code-review-swarm.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "github-modes",
+        "file": "github/github-modes.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "issue-tracker",
+        "file": "github/issue-tracker.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "multi-repo-swarm",
+        "file": "github/multi-repo-swarm.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "pr-manager",
+        "file": "github/pr-manager.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "project-board-sync",
+        "file": "github/project-board-sync.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "release-manager",
+        "file": "github/release-manager.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "release-swarm",
+        "file": "github/release-swarm.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "repo-architect",
+        "file": "github/repo-architect.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "swarm-issue",
+        "file": "github/swarm-issue.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "swarm-pr",
+        "file": "github/swarm-pr.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "sync-coordinator",
+        "file": "github/sync-coordinator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "workflow-automation",
+        "file": "github/workflow-automation.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "goal": [
+      {
+        "id": "agent",
+        "file": "goal/agent.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "code-goal-planner",
+        "file": "goal/code-goal-planner.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "goal-planner",
+        "file": "goal/goal-planner.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "hive-mind": [
+      {
+        "id": "collective-intelligence-coordinator",
+        "file": "hive-mind/collective-intelligence-coordinator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "queen-coordinator",
+        "file": "hive-mind/queen-coordinator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "scout-explorer",
+        "file": "hive-mind/scout-explorer.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "swarm-memory-manager",
+        "file": "hive-mind/swarm-memory-manager.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "worker-specialist",
+        "file": "hive-mind/worker-specialist.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "legal": [
+      {
+        "id": "case-architect",
+        "file": "legal/case-architect.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "civil-motion-specialist",
+        "file": "legal/civil-motion-specialist.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "correspondence-reviewer",
+        "file": "legal/correspondence-reviewer.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "criminal-recovery-specialist",
+        "file": "legal/criminal-recovery-specialist.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "evidence-auditor",
+        "file": "legal/evidence-auditor.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "filing-qa",
+        "file": "legal/filing-qa.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "form-specialist",
+        "file": "legal/form-specialist.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "order-safety-reviewer",
+        "file": "legal/order-safety-reviewer.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "research-verifier",
+        "file": "legal/research-verifier.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "optimization": [
+      {
+        "id": "benchmark-suite",
+        "file": "optimization/benchmark-suite.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "load-balancer",
+        "file": "optimization/load-balancer.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "performance-monitor",
+        "file": "optimization/performance-monitor.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "resource-allocator",
+        "file": "optimization/resource-allocator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "topology-optimizer",
+        "file": "optimization/topology-optimizer.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "payments": [
+      {
+        "id": "agentic-payments",
+        "file": "payments/agentic-payments.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "sona": [
+      {
+        "id": "sona-learning-optimizer",
+        "file": "sona/sona-learning-optimizer.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "sparc": [
+      {
+        "id": "architecture",
+        "file": "sparc/architecture.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "pseudocode",
+        "file": "sparc/pseudocode.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "refinement",
+        "file": "sparc/refinement.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "specification",
+        "file": "sparc/specification.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "specialized": [
+      {
+        "id": "spec-mobile-react-native",
+        "file": "specialized/mobile/spec-mobile-react-native.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "sublinear": [
+      {
+        "id": "consensus-coordinator",
+        "file": "sublinear/consensus-coordinator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "matrix-optimizer",
+        "file": "sublinear/matrix-optimizer.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "pagerank-analyzer",
+        "file": "sublinear/pagerank-analyzer.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "performance-optimizer",
+        "file": "sublinear/performance-optimizer.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "trading-predictor",
+        "file": "sublinear/trading-predictor.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "swarm": [
+      {
+        "id": "adaptive-coordinator",
+        "file": "swarm/adaptive-coordinator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "hierarchical-coordinator",
+        "file": "swarm/hierarchical-coordinator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "mesh-coordinator",
+        "file": "swarm/mesh-coordinator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "syncpulse-design-enhancement",
+        "file": "swarm/syncpulse-design-enhancement.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "syncpulse-sales-enhancement",
+        "file": "swarm/syncpulse-sales-enhancement.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "templates": [
+      {
+        "id": "automation-smart-agent",
+        "file": "templates/automation-smart-agent.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "coordinator-swarm-init",
+        "file": "templates/coordinator-swarm-init.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "github-pr-manager",
+        "file": "templates/github-pr-manager.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "implementer-sparc-coder",
+        "file": "templates/implementer-sparc-coder.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "memory-coordinator",
+        "file": "templates/memory-coordinator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "migration-plan",
+        "file": "templates/migration-plan.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "orchestrator-task",
+        "file": "templates/orchestrator-task.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "performance-analyzer",
+        "file": "templates/performance-analyzer.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "sparc-coordinator",
+        "file": "templates/sparc-coordinator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "testing": [
+      {
+        "id": "production-validator",
+        "file": "testing/production-validator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "tdd-london-swarm",
+        "file": "testing/tdd-london-swarm.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "tdd-london-swarm",
+        "file": "testing/unit/tdd-london-swarm.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "production-validator",
+        "file": "testing/validation/production-validator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ],
+    "v3": [
+      {
+        "id": "database-specialist",
+        "file": "v3/database-specialist.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "project-coordinator",
+        "file": "v3/project-coordinator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "python-specialist",
+        "file": "v3/python-specialist.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "test-architect",
+        "file": "v3/test-architect.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "typescript-specialist",
+        "file": "v3/typescript-specialist.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "v3-integration-architect",
+        "file": "v3/v3-integration-architect.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "v3-memory-specialist",
+        "file": "v3/v3-memory-specialist.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "v3-performance-engineer",
+        "file": "v3/v3-performance-engineer.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "v3-queen-coordinator",
+        "file": "v3/v3-queen-coordinator.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      },
+      {
+        "id": "v3-security-architect",
+        "file": "v3/v3-security-architect.md",
+        "version": "1.0.1",
+        "lastUpdated": "2026-09-30",
+        "status": "active",
+        "license": "Non-Commercial v1.0"
+      }
+    ]
+  },
+  "metadata": {
+    "created": "2026-09-30T08:05:00Z",
+    "updated": "2026-09-30T08:05:00Z",
+    "script": "scripts/add-version-control.js",
+    "maintainer": "Fused Gaming",
+    "integrityChecksum": "sha256-AGENTS-MANIFEST-1.0.1"
+  }
+}

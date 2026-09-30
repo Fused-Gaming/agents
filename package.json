@@ -1,6 +1,6 @@
 {
   "name": "@fused-gaming/agents",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Comprehensive marketplace of 100+ specialized Claude agents for diverse use cases",
   "main": "marketplace.json",
   "type": "module",
@@ -11,7 +11,10 @@
     "marketplace:stats": "node scripts/marketplace-cli.js --stats",
     "agents:list": "jq '.agents[] | {name: .name, category: .category, id: .id}' marketplace.json",
     "agents:by-category": "jq 'group_by(.category) | map({category: .[0].category, count: length, agents: [.[].name]})' marketplace.json",
-    "agents:search": "jq '.agents[] | select(.name | ascii_downcase | contains(ARGS.positional[0]))' --args"
+    "agents:search": "jq '.agents[] | select(.name | ascii_downcase | contains(ARGS.positional[0]))' --args",
+    "agents:version-control": "node scripts/add-version-control.js",
+    "agents:manifest": "cat agents-manifest.json",
+    "agents:verify": "jq '.stats' agents-manifest.json"
   },
   "repository": {
     "type": "git",
@@ -39,6 +42,17 @@
     "marketplace.json",
     "scripts/",
     "MARKETPLACE.md",
-    "README.md"
-  ]
+    "README.md",
+    "agents-manifest.json"
+  ],
+  "agents": {
+    "version": "1.0.1",
+    "totalCount": 89,
+    "manifestFile": "agents-manifest.json",
+    "versionControl": {
+      "enabled": true,
+      "headerFormat": "html-comment",
+      "lastSynced": "2026-09-30T08:05:00Z"
+    }
+  }
 }

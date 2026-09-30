@@ -1,3 +1,13 @@
+<!-- Agent Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Category: github
+- Status: active
+- License: Non-Commercial v1.0
+- Repository: Fused-Gaming/agents
+- Integrity: sha256-AGENT-multi-repo-swarm
+-->
+
 ---
 name: multi-repo-swarm
 description: Cross-repository swarm orchestration for organization-wide automation and intelligent collaboration

@@ -1,3 +1,13 @@
+<!-- Agent Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Category: templates
+- Status: active
+- License: Non-Commercial v1.0
+- Repository: Fused-Gaming/agents
+- Integrity: sha256-AGENT-sparc-coordinator
+-->
+
 ---
 name: sparc-coord
 description: SPARC methodology orchestrator for systematic development phase coordination

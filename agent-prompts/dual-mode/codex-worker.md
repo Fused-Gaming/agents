@@ -1,3 +1,13 @@
+<!-- Agent Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Category: dual-mode
+- Status: active
+- License: Non-Commercial v1.0
+- Repository: Fused-Gaming/agents
+- Integrity: sha256-AGENT-codex-worker
+-->
+
 ---
 name: codex-worker
 description: Headless Codex background worker for parallel task execution with self-learning

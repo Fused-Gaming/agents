@@ -1,3 +1,13 @@
+<!-- Agent Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Category: templates
+- Status: active
+- License: Non-Commercial v1.0
+- Repository: Fused-Gaming/agents
+- Integrity: sha256-AGENT-coordinator-swarm-init
+-->
+
 ---
 name: swarm-init
 description: Swarm initialization and topology optimization specialist

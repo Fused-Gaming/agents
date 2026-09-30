@@ -1,3 +1,13 @@
+<!-- Agent Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Category: documentation
+- Status: active
+- License: Non-Commercial v1.0
+- Repository: Fused-Gaming/agents
+- Integrity: sha256-AGENT-docs-api-openapi
+-->
+
 ---
 name: api-docs
 description: Expert agent for creating and maintaining OpenAPI/Swagger documentation

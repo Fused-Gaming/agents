@@ -1,3 +1,13 @@
+<!-- Agent Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Category: testing
+- Status: active
+- License: Non-Commercial v1.0
+- Repository: Fused-Gaming/agents
+- Integrity: sha256-AGENT-tdd-london-swarm
+-->
+
 ---
 name: tdd-london-swarm
 description: TDD London School specialist for mock-driven development within swarm coordination

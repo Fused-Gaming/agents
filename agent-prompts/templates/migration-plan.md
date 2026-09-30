@@ -1,3 +1,13 @@
+<!-- Agent Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Category: templates
+- Status: active
+- License: Non-Commercial v1.0
+- Repository: Fused-Gaming/agents
+- Integrity: sha256-AGENT-migration-plan
+-->
+
 ---
 name: migration-planner
 description: Comprehensive migration plan for converting commands to agent-based system

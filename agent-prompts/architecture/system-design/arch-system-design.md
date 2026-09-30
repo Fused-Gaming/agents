@@ -1,3 +1,13 @@
+<!-- Agent Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Category: architecture
+- Status: active
+- License: Non-Commercial v1.0
+- Repository: Fused-Gaming/agents
+- Integrity: sha256-AGENT-arch-system-design
+-->
+
 ---
 name: system-architect
 description: Expert agent for system architecture design, patterns, and high-level technical decisions

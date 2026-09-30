@@ -1,3 +1,13 @@
+<!-- Agent Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Category: optimization
+- Status: active
+- License: Non-Commercial v1.0
+- Repository: Fused-Gaming/agents
+- Integrity: sha256-AGENT-benchmark-suite
+-->
+
 ---
 name: Benchmark Suite
 description: Comprehensive performance benchmarking, regression detection and performance validation
