@@ -1,0 +1,2862 @@
+{
+  "marketplace": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-09-30T06:27:29.512Z",
+    "totalAgents": 100,
+    "description": "Comprehensive marketplace of specialized Claude agents for diverse use cases",
+    "source": "Fused-Gaming/Fused-Gaming-Skill-MCP",
+    "metadata": {
+      "createdAt": "2026-09-30T06:27:29.482Z",
+      "maintainer": "Fused Gaming",
+      "license": "MIT",
+      "repository": "https://github.com/Fused-Gaming/agents"
+    }
+  },
+  "categories": {
+    "analysis": {
+      "id": "analysis",
+      "name": "Code Analysis",
+      "description": "Agents in the Code Analysis category",
+      "icon": "🔍",
+      "count": 3,
+      "order": 17
+    },
+    "architecture": {
+      "id": "architecture",
+      "name": "Architecture & Design",
+      "description": "Agents in the Architecture & Design category",
+      "icon": "🏗️",
+      "count": 1,
+      "order": 16
+    },
+    "consensus": {
+      "id": "consensus",
+      "name": "Consensus & Distributed Systems",
+      "description": "Agents in the Consensus & Distributed Systems category",
+      "icon": "⛓️",
+      "count": 7,
+      "order": 9
+    },
+    "core": {
+      "id": "core",
+      "name": "Core Agents",
+      "description": "Agents in the Core Agents category",
+      "icon": "⚙️",
+      "count": 5,
+      "order": 1
+    },
+    "custom": {
+      "id": "custom",
+      "name": "Custom & Experimental",
+      "description": "Agents in the Custom & Experimental category",
+      "icon": "🧪",
+      "count": 1,
+      "order": 20
+    },
+    "data": {
+      "id": "data",
+      "name": "Data & ML",
+      "description": "Agents in the Data & ML category",
+      "icon": "🔬",
+      "count": 1,
+      "order": 13
+    },
+    "development": {
+      "id": "development",
+      "name": "Development & Backend",
+      "description": "Agents in the Development & Backend category",
+      "icon": "🛠️",
+      "count": 2,
+      "order": 2
+    },
+    "devops": {
+      "id": "devops",
+      "name": "Devops",
+      "description": "Agents in the Devops category",
+      "icon": "🔧",
+      "count": 1,
+      "order": 100
+    },
+    "documentation": {
+      "id": "documentation",
+      "name": "Documentation",
+      "description": "Agents in the Documentation category",
+      "icon": "📚",
+      "count": 1,
+      "order": 15
+    },
+    "dual-mode": {
+      "id": "dual-mode",
+      "name": "Dual-Mode Agents",
+      "description": "Agents in the Dual-Mode Agents category",
+      "icon": "🔄",
+      "count": 3,
+      "order": 18
+    },
+    "flow-nexus": {
+      "id": "flow-nexus",
+      "name": "Flow Nexus Platform",
+      "description": "Agents in the Flow Nexus Platform category",
+      "icon": "🌊",
+      "count": 9,
+      "order": 5
+    },
+    "github": {
+      "id": "github",
+      "name": "GitHub & DevOps",
+      "description": "Agents in the GitHub & DevOps category",
+      "icon": "🐙",
+      "count": 13,
+      "order": 3
+    },
+    "goal": {
+      "id": "goal",
+      "name": "Goal Planning",
+      "description": "Agents in the Goal Planning category",
+      "icon": "🎯",
+      "count": 3,
+      "order": 4
+    },
+    "hive-mind": {
+      "id": "hive-mind",
+      "name": "Hive Mind",
+      "description": "Agents in the Hive Mind category",
+      "icon": "🧠",
+      "count": 5,
+      "order": 8
+    },
+    "optimization": {
+      "id": "optimization",
+      "name": "Optimization & Performance",
+      "description": "Agents in the Optimization & Performance category",
+      "icon": "⚡",
+      "count": 5,
+      "order": 10
+    },
+    "payments": {
+      "id": "payments",
+      "name": "Payments & Financial",
+      "description": "Agents in the Payments & Financial category",
+      "icon": "💳",
+      "count": 1,
+      "order": 22
+    },
+    "sona": {
+      "id": "sona",
+      "name": "SONA Learning",
+      "description": "Agents in the SONA Learning category",
+      "icon": "📚",
+      "count": 1,
+      "order": 23
+    },
+    "sparc": {
+      "id": "sparc",
+      "name": "SPARC Methodology",
+      "description": "Agents in the SPARC Methodology category",
+      "icon": "✨",
+      "count": 4,
+      "order": 6
+    },
+    "specialized": {
+      "id": "specialized",
+      "name": "Specialized Domains",
+      "description": "Agents in the Specialized Domains category",
+      "icon": "🎓",
+      "count": 1,
+      "order": 12
+    },
+    "sublinear": {
+      "id": "sublinear",
+      "name": "Sublinear & Advanced Algorithms",
+      "description": "Agents in the Sublinear & Advanced Algorithms category",
+      "icon": "📊",
+      "count": 5,
+      "order": 11
+    },
+    "swarm": {
+      "id": "swarm",
+      "name": "Swarm Coordination",
+      "description": "Agents in the Swarm Coordination category",
+      "icon": "🐝",
+      "count": 5,
+      "order": 7
+    },
+    "templates": {
+      "id": "templates",
+      "name": "Templates & Reusable Patterns",
+      "description": "Agents in the Templates & Reusable Patterns category",
+      "icon": "📋",
+      "count": 9,
+      "order": 19
+    },
+    "testing": {
+      "id": "testing",
+      "name": "Testing & Quality",
+      "description": "Agents in the Testing & Quality category",
+      "icon": "✅",
+      "count": 4,
+      "order": 14
+    },
+    "v3": {
+      "id": "v3",
+      "name": "V3 Integration Specialists",
+      "description": "Agents in the V3 Integration Specialists category",
+      "icon": "🚀",
+      "count": 10,
+      "order": 21
+    }
+  },
+  "capabilities": [
+    "code_generation",
+    "code_review",
+    "testing",
+    "planning",
+    "task_decomposition",
+    "coordination",
+    "optimization",
+    "analysis",
+    "documentation",
+    "ci_cd",
+    "deployment",
+    "monitoring",
+    "debugging",
+    "refactoring",
+    "security",
+    "performance",
+    "scalability",
+    "workflow_automation",
+    "ml_operations",
+    "data_analysis",
+    "api_design",
+    "system_design",
+    "consensus_algorithms",
+    "swarm_coordination",
+    "distributed_systems"
+  ],
+  "agents": [
+    {
+      "id": "swarm-adaptive-coordinator",
+      "name": "adaptive-coordinator",
+      "category": "swarm",
+      "path": "swarm/adaptive-coordinator.md",
+      "type": "specialist",
+      "color": "#29398",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "swarm"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.598679262500461
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "payments-agentic-payments",
+      "name": "agentic-payments",
+      "category": "payments",
+      "path": "payments/agentic-payments.md",
+      "type": "specialist",
+      "color": "#a3b11a",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "payments"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.604007424958563
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "analysis-analyst",
+      "name": "analyst",
+      "category": "analysis",
+      "path": "analysis/code-analyzer.md",
+      "type": "specialist",
+      "color": "#2119e3",
+      "description": "Advanced code quality analysis agent for comprehensive code reviews and improvements",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "analysis"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.436130085877333
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "documentation-api-docs",
+      "name": "api-docs",
+      "category": "documentation",
+      "path": "documentation/api-docs/docs-api-openapi.md",
+      "type": "specialist",
+      "color": "#d52abf",
+      "description": "Expert agent for creating and maintaining OpenAPI/Swagger documentation",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "documentation"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.434977807899369
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "sparc-architecture",
+      "name": "architecture",
+      "category": "sparc",
+      "path": "sparc/architecture.md",
+      "type": "specialist",
+      "color": "#e905f0",
+      "description": "SPARC Architecture phase specialist for system design",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "sparc"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.690258446110716
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "development-backend-dev",
+      "name": "backend-dev",
+      "category": "development",
+      "path": "development/backend/dev-backend-api.md",
+      "type": "specialist",
+      "color": "#8d3f0b",
+      "description": "Specialized agent for backend API development, including REST and GraphQL endpoints",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "development"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.522292211775765
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "development-backend-dev",
+      "name": "backend-dev",
+      "category": "development",
+      "path": "development/dev-backend-api.md",
+      "type": "specialist",
+      "color": "#7bb94c",
+      "description": "Specialized agent for backend API development with self-learning and pattern recognition",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "development"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.657083371553674
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "optimization-benchmark suite",
+      "name": "Benchmark Suite",
+      "category": "optimization",
+      "path": "optimization/benchmark-suite.md",
+      "type": "specialist",
+      "color": "#60a28e",
+      "description": "Comprehensive performance benchmarking, regression detection and performance validation",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "optimization"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.508355692408854
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "consensus-byzantine-coordinator",
+      "name": "byzantine-coordinator",
+      "category": "consensus",
+      "path": "consensus/byzantine-coordinator.md",
+      "type": "specialist",
+      "color": "#c5885c",
+      "description": "Coordinates Byzantine fault-tolerant consensus protocols with malicious actor detection",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "consensus"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.562359101888397
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "devops-cicd-engineer",
+      "name": "cicd-engineer",
+      "category": "devops",
+      "path": "devops/ci-cd/ops-cicd-github.md",
+      "type": "specialist",
+      "color": "#b6a43d",
+      "description": "Specialized agent for GitHub Actions CI/CD pipeline creation and optimization",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "devops"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.423511319817423
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "analysis-code-analyzer",
+      "name": "code-analyzer",
+      "category": "analysis",
+      "path": "analysis/analyze-code-quality.md",
+      "type": "specialist",
+      "color": "#52c606",
+      "description": "Advanced code quality analysis agent for comprehensive code reviews and improvements",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "analysis"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.561770492633318
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "analysis-code-analyzer",
+      "name": "code-analyzer",
+      "category": "analysis",
+      "path": "analysis/code-review/analyze-code-quality.md",
+      "type": "specialist",
+      "color": "#ef2e50",
+      "description": "Advanced code quality analysis agent for comprehensive code reviews and improvements",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "analysis"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.337432607965791
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "goal-code-goal-planner",
+      "name": "code-goal-planner",
+      "category": "goal",
+      "path": "goal/code-goal-planner.md",
+      "type": "specialist",
+      "color": "#df39e8",
+      "description": "Code-centric Goal-Oriented Action Planning specialist that creates intelligent plans for software development objectives. Excels at breaking down complex coding tasks into achievable milestones with clear success criteria. Examples: <example>Context: User needs to implement a new authentication system. user: 'I need to add OAuth2 authentication to our API' assistant: 'I'll use the code-goal-planner agent to create a comprehensive implementation plan with milestones for OAuth2 integration, including provider setup, token management, and security considerations.' <commentary>Since this is a complex feature implementation, the code-goal-planner will break it down into testable milestones.</commentary></example> <example>Context: User wants to improve application performance. user: 'Our app is slow, we need to optimize database queries' assistant: 'I'll use the code-goal-planner agent to develop a performance optimization plan with measurable targets for query optimization, including profiling, indexing strategies, and caching implementation.' <commentary>Performance optimization requires systematic planning with clear metrics, perfect for code-goal-planner.</commentary></example>",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "goal"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.605637008517961
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "github-code-review-swarm",
+      "name": "code-review-swarm",
+      "category": "github",
+      "path": "github/code-review-swarm.md",
+      "type": "specialist",
+      "color": "#aa8ecd",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "github"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.528173610076054
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "core-coder",
+      "name": "coder",
+      "category": "core",
+      "path": "core/coder.md",
+      "type": "specialist",
+      "color": "#a4a0da",
+      "description": "Implementation specialist for writing clean, efficient code",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "core"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.476354674416848
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "dual-mode-codex-coordinator",
+      "name": "codex-coordinator",
+      "category": "dual-mode",
+      "path": "dual-mode/codex-coordinator.md",
+      "type": "specialist",
+      "color": "#917e09",
+      "description": "Coordinates multiple headless Codex workers for parallel execution",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "dual-mode"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.686240777406131
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "dual-mode-codex-worker",
+      "name": "codex-worker",
+      "category": "dual-mode",
+      "path": "dual-mode/codex-worker.md",
+      "type": "specialist",
+      "color": "#19effa",
+      "description": "Headless Codex background worker for parallel task execution with self-learning",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "dual-mode"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.546936580693123
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "hive-mind-collective-intelligence-coordinator",
+      "name": "collective-intelligence-coordinator",
+      "category": "hive-mind",
+      "path": "hive-mind/collective-intelligence-coordinator.md",
+      "type": "specialist",
+      "color": "#ff5c59",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "hive-mind"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.401141825306611
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "sublinear-consensus-coordinator",
+      "name": "consensus-coordinator",
+      "category": "sublinear",
+      "path": "sublinear/consensus-coordinator.md",
+      "type": "specialist",
+      "color": "#ba81f",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "sublinear"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.577860800163853
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "consensus-crdt-synchronizer",
+      "name": "crdt-synchronizer",
+      "category": "consensus",
+      "path": "consensus/crdt-synchronizer.md",
+      "type": "specialist",
+      "color": "#8d65f1",
+      "description": "Implements Conflict-free Replicated Data Types for eventually consistent state synchronization",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "consensus"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.305084427035782
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "v3-database-specialist",
+      "name": "database-specialist",
+      "category": "v3",
+      "path": "v3/database-specialist.md",
+      "type": "specialist",
+      "color": "#fb03d5",
+      "description": "Database design and optimization specialist",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "v3"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.473834030449696
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "dual-mode-dual-orchestrator",
+      "name": "dual-orchestrator",
+      "category": "dual-mode",
+      "path": "dual-mode/dual-orchestrator.md",
+      "type": "specialist",
+      "color": "#20cf47",
+      "description": "Orchestrates Claude Code (interactive) + Codex (headless) for hybrid workflows",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "dual-mode"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.613657115115058
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "flow-nexus-flow-nexus-app-store",
+      "name": "flow-nexus-app-store",
+      "category": "flow-nexus",
+      "path": "flow-nexus/app-store.md",
+      "type": "specialist",
+      "color": "#1f730d",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "flow-nexus"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.30907506085944
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "flow-nexus-flow-nexus-auth",
+      "name": "flow-nexus-auth",
+      "category": "flow-nexus",
+      "path": "flow-nexus/authentication.md",
+      "type": "specialist",
+      "color": "#195245",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "flow-nexus"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.642645777732486
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "flow-nexus-flow-nexus-challenges",
+      "name": "flow-nexus-challenges",
+      "category": "flow-nexus",
+      "path": "flow-nexus/challenges.md",
+      "type": "specialist",
+      "color": "#3f9ce7",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "flow-nexus"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.334341714005165
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "flow-nexus-flow-nexus-neural",
+      "name": "flow-nexus-neural",
+      "category": "flow-nexus",
+      "path": "flow-nexus/neural-network.md",
+      "type": "specialist",
+      "color": "#bc4ffc",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "flow-nexus"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.67347937947197
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "flow-nexus-flow-nexus-payments",
+      "name": "flow-nexus-payments",
+      "category": "flow-nexus",
+      "path": "flow-nexus/payments.md",
+      "type": "specialist",
+      "color": "#105a26",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "flow-nexus"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.453654318496582
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "flow-nexus-flow-nexus-sandbox",
+      "name": "flow-nexus-sandbox",
+      "category": "flow-nexus",
+      "path": "flow-nexus/sandbox.md",
+      "type": "specialist",
+      "color": "#ffe78a",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "flow-nexus"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.323310402660223
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "flow-nexus-flow-nexus-swarm",
+      "name": "flow-nexus-swarm",
+      "category": "flow-nexus",
+      "path": "flow-nexus/swarm.md",
+      "type": "specialist",
+      "color": "#455829",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "flow-nexus"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.645624617952861
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "flow-nexus-flow-nexus-user-tools",
+      "name": "flow-nexus-user-tools",
+      "category": "flow-nexus",
+      "path": "flow-nexus/user-tools.md",
+      "type": "specialist",
+      "color": "#1403a9",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "flow-nexus"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.639947637908832
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "flow-nexus-flow-nexus-workflow",
+      "name": "flow-nexus-workflow",
+      "category": "flow-nexus",
+      "path": "flow-nexus/workflow.md",
+      "type": "specialist",
+      "color": "#19112b",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "flow-nexus"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.434097556271279
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "github-github-modes",
+      "name": "github-modes",
+      "category": "github",
+      "path": "github/github-modes.md",
+      "type": "specialist",
+      "color": "#680840",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "github"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.598327315763328
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "goal-goal-planner",
+      "name": "goal-planner",
+      "category": "goal",
+      "path": "goal/goal-planner.md",
+      "type": "specialist",
+      "color": "#ca9b7a",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "goal"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.475054477347301
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "consensus-gossip-coordinator",
+      "name": "gossip-coordinator",
+      "category": "consensus",
+      "path": "consensus/gossip-coordinator.md",
+      "type": "specialist",
+      "color": "#d7a147",
+      "description": "Coordinates gossip-based consensus protocols for scalable eventually consistent systems",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "consensus"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.658711871775042
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "swarm-hierarchical-coordinator",
+      "name": "hierarchical-coordinator",
+      "category": "swarm",
+      "path": "swarm/hierarchical-coordinator.md",
+      "type": "specialist",
+      "color": "#86431b",
+      "description": "Queen-led hierarchical swarm coordination with specialized worker delegation",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "swarm"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.5554417897241635
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "github-issue-tracker",
+      "name": "issue-tracker",
+      "category": "github",
+      "path": "github/issue-tracker.md",
+      "type": "specialist",
+      "color": "#eacbe3",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "github"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.312548511499922
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "optimization-load balancing coordinator",
+      "name": "Load Balancing Coordinator",
+      "category": "optimization",
+      "path": "optimization/load-balancer.md",
+      "type": "specialist",
+      "color": "#3b4f2d",
+      "description": "Dynamic task distribution, work-stealing algorithms and adaptive load balancing",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "optimization"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.607818244973525
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "sublinear-matrix-optimizer",
+      "name": "matrix-optimizer",
+      "category": "sublinear",
+      "path": "sublinear/matrix-optimizer.md",
+      "type": "specialist",
+      "color": "#af8999",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "sublinear"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.480276414237867
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "templates-memory-coordinator",
+      "name": "memory-coordinator",
+      "category": "templates",
+      "path": "templates/memory-coordinator.md",
+      "type": "specialist",
+      "color": "#9d6762",
+      "description": "Manage persistent memory across sessions and facilitate cross-agent memory sharing",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "templates"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.507397911574063
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "swarm-mesh-coordinator",
+      "name": "mesh-coordinator",
+      "category": "swarm",
+      "path": "swarm/mesh-coordinator.md",
+      "type": "specialist",
+      "color": "#b3401a",
+      "description": "Peer-to-peer mesh network swarm with distributed decision making and fault tolerance",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "swarm"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.363759003758425
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "templates-migration-planner",
+      "name": "migration-planner",
+      "category": "templates",
+      "path": "templates/migration-plan.md",
+      "type": "specialist",
+      "color": "#a88108",
+      "description": "Comprehensive migration plan for converting commands to agent-based system",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "templates"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.609200139691769
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "data-ml-developer",
+      "name": "ml-developer",
+      "category": "data",
+      "path": "data/ml/data-ml-model.md",
+      "type": "specialist",
+      "color": "#d3792a",
+      "description": "Specialized agent for machine learning model development, training, and deployment",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "data"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.530963148706657
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "specialized-mobile-dev",
+      "name": "mobile-dev",
+      "category": "specialized",
+      "path": "specialized/mobile/spec-mobile-react-native.md",
+      "type": "specialist",
+      "color": "#d7417",
+      "description": "Expert agent for React Native mobile application development across iOS and Android",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "specialized"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.664959535122607
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "github-multi-repo-swarm",
+      "name": "multi-repo-swarm",
+      "category": "github",
+      "path": "github/multi-repo-swarm.md",
+      "type": "specialist",
+      "color": "#283a83",
+      "description": "Cross-repository swarm orchestration for organization-wide automation and intelligent collaboration",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "github"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.523810323886904
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "sublinear-pagerank-analyzer",
+      "name": "pagerank-analyzer",
+      "category": "sublinear",
+      "path": "sublinear/pagerank-analyzer.md",
+      "type": "specialist",
+      "color": "#e5c38f",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "sublinear"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.5937660773525
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "templates-perf-analyzer",
+      "name": "perf-analyzer",
+      "category": "templates",
+      "path": "templates/performance-analyzer.md",
+      "type": "specialist",
+      "color": "#9a7790",
+      "description": "Performance bottleneck analyzer for identifying and resolving workflow inefficiencies",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "templates"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.495003891726569
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "optimization-performance monitor",
+      "name": "Performance Monitor",
+      "category": "optimization",
+      "path": "optimization/performance-monitor.md",
+      "type": "specialist",
+      "color": "#ae0a77",
+      "description": "Real-time metrics collection, bottleneck analysis, SLA monitoring and anomaly detection",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "optimization"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.639983639607336
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "consensus-performance-benchmarker",
+      "name": "performance-benchmarker",
+      "category": "consensus",
+      "path": "consensus/performance-benchmarker.md",
+      "type": "specialist",
+      "color": "#28911a",
+      "description": "Implements comprehensive performance benchmarking for distributed consensus protocols",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "consensus"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.330089276705955
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "sublinear-performance-optimizer",
+      "name": "performance-optimizer",
+      "category": "sublinear",
+      "path": "sublinear/performance-optimizer.md",
+      "type": "specialist",
+      "color": "#a4eeed",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "sublinear"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.49411212892089
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "core-planner",
+      "name": "planner",
+      "category": "core",
+      "path": "core/planner.md",
+      "type": "specialist",
+      "color": "#1f3b71",
+      "description": "Strategic planning and task orchestration agent",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "core"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.402522334174111
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "github-pr-manager",
+      "name": "pr-manager",
+      "category": "github",
+      "path": "github/pr-manager.md",
+      "type": "specialist",
+      "color": "#1475ed",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "github"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.5008587412099805
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "templates-pr-manager",
+      "name": "pr-manager",
+      "category": "templates",
+      "path": "templates/github-pr-manager.md",
+      "type": "specialist",
+      "color": "#56764f",
+      "description": "Complete pull request lifecycle management and GitHub workflow coordination",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "templates"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.554597024217737
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "testing-production-validator",
+      "name": "production-validator",
+      "category": "testing",
+      "path": "testing/production-validator.md",
+      "type": "specialist",
+      "color": "#a211d2",
+      "description": "Production validation specialist ensuring applications are fully implemented and deployment-ready",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "testing"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.397653580591642
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "testing-production-validator",
+      "name": "production-validator",
+      "category": "testing",
+      "path": "testing/validation/production-validator.md",
+      "type": "specialist",
+      "color": "#be44e1",
+      "description": "Production validation specialist ensuring applications are fully implemented and deployment-ready",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "testing"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.420161270388793
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "github-project-board-sync",
+      "name": "project-board-sync",
+      "category": "github",
+      "path": "github/project-board-sync.md",
+      "type": "specialist",
+      "color": "#585a2f",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "github"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.3527709471200415
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "v3-project-coordinator",
+      "name": "project-coordinator",
+      "category": "v3",
+      "path": "v3/project-coordinator.md",
+      "type": "specialist",
+      "color": "#ef8ba4",
+      "description": "Coordinates multi-agent workflows for this project",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "v3"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.564300068082227
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "sparc-pseudocode",
+      "name": "pseudocode",
+      "category": "sparc",
+      "path": "sparc/pseudocode.md",
+      "type": "specialist",
+      "color": "#e87109",
+      "description": "SPARC Pseudocode phase specialist for algorithm design",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "sparc"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.66628179472858
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "v3-python-specialist",
+      "name": "python-specialist",
+      "category": "v3",
+      "path": "v3/python-specialist.md",
+      "type": "specialist",
+      "color": "#6b47ef",
+      "description": "Python development specialist",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "v3"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.49822500883334
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "hive-mind-queen-coordinator",
+      "name": "queen-coordinator",
+      "category": "hive-mind",
+      "path": "hive-mind/queen-coordinator.md",
+      "type": "specialist",
+      "color": "#78b1bb",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "hive-mind"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.400238393280401
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "consensus-quorum-manager",
+      "name": "quorum-manager",
+      "category": "consensus",
+      "path": "consensus/quorum-manager.md",
+      "type": "specialist",
+      "color": "#cfb993",
+      "description": "Implements dynamic quorum adjustment and intelligent membership management",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "consensus"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.670301255588147
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "consensus-raft-manager",
+      "name": "raft-manager",
+      "category": "consensus",
+      "path": "consensus/raft-manager.md",
+      "type": "specialist",
+      "color": "#50d9ea",
+      "description": "Manages Raft consensus algorithm with leader election and log replication",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "consensus"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.321011528620954
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "sparc-refinement",
+      "name": "refinement",
+      "category": "sparc",
+      "path": "sparc/refinement.md",
+      "type": "specialist",
+      "color": "#326d91",
+      "description": "SPARC Refinement phase specialist for iterative improvement",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "sparc"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.552000960613837
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "github-release-manager",
+      "name": "release-manager",
+      "category": "github",
+      "path": "github/release-manager.md",
+      "type": "specialist",
+      "color": "#3684cc",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "github"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.528312612580725
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "github-release-swarm",
+      "name": "release-swarm",
+      "category": "github",
+      "path": "github/release-swarm.md",
+      "type": "specialist",
+      "color": "#d5fcae",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "github"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.436339667558661
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "github-repo-architect",
+      "name": "repo-architect",
+      "category": "github",
+      "path": "github/repo-architect.md",
+      "type": "specialist",
+      "color": "#96674b",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "github"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.417890097635852
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "core-researcher",
+      "name": "researcher",
+      "category": "core",
+      "path": "core/researcher.md",
+      "type": "specialist",
+      "color": "#590751",
+      "description": "Deep research and information gathering specialist",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "core"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.6687350726508665
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "optimization-resource allocator",
+      "name": "Resource Allocator",
+      "category": "optimization",
+      "path": "optimization/resource-allocator.md",
+      "type": "specialist",
+      "color": "#5f5635",
+      "description": "Adaptive resource allocation, predictive scaling and intelligent capacity planning",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "optimization"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.64384004376943
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "core-reviewer",
+      "name": "reviewer",
+      "category": "core",
+      "path": "core/reviewer.md",
+      "type": "specialist",
+      "color": "#498d03",
+      "description": "Code review and quality assurance specialist",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "core"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.34826291735788
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "hive-mind-scout-explorer",
+      "name": "scout-explorer",
+      "category": "hive-mind",
+      "path": "hive-mind/scout-explorer.md",
+      "type": "specialist",
+      "color": "#31a295",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "hive-mind"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.477146816412358
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "consensus-security-manager",
+      "name": "security-manager",
+      "category": "consensus",
+      "path": "consensus/security-manager.md",
+      "type": "specialist",
+      "color": "#65f6dc",
+      "description": "Implements comprehensive security mechanisms for distributed consensus protocols",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "consensus"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.400928552469342
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "templates-smart-agent",
+      "name": "smart-agent",
+      "category": "templates",
+      "path": "templates/automation-smart-agent.md",
+      "type": "specialist",
+      "color": "#e8d01",
+      "description": "Intelligent agent coordination and dynamic spawning specialist",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "templates"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.370439391784131
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "sona-sona-learning-optimizer",
+      "name": "sona-learning-optimizer",
+      "category": "sona",
+      "path": "sona/sona-learning-optimizer.md",
+      "type": "specialist",
+      "color": "#c50d50",
+      "description": "SONA-powered self-optimizing agent with LoRA fine-tuning and EWC++ memory preservation",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "sona"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.646952526563434
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "templates-sparc-coder",
+      "name": "sparc-coder",
+      "category": "templates",
+      "path": "templates/implementer-sparc-coder.md",
+      "type": "specialist",
+      "color": "#4622db",
+      "description": "Transform specifications into working code with TDD practices",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "templates"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.466486528212144
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "templates-sparc-coord",
+      "name": "sparc-coord",
+      "category": "templates",
+      "path": "templates/sparc-coordinator.md",
+      "type": "specialist",
+      "color": "#bbb74d",
+      "description": "SPARC methodology orchestrator for systematic development phase coordination",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "templates"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.538813990294209
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "sparc-specification",
+      "name": "specification",
+      "category": "sparc",
+      "path": "sparc/specification.md",
+      "type": "specialist",
+      "color": "#27985",
+      "description": "SPARC Specification phase specialist for requirements analysis",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "sparc"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.631654618584639
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "goal-sublinear-goal-planner",
+      "name": "sublinear-goal-planner",
+      "category": "goal",
+      "path": "goal/agent.md",
+      "type": "specialist",
+      "color": "#8f97b7",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "goal"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.599465900704139
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "templates-swarm-init",
+      "name": "swarm-init",
+      "category": "templates",
+      "path": "templates/coordinator-swarm-init.md",
+      "type": "specialist",
+      "color": "#fe846a",
+      "description": "Swarm initialization and topology optimization specialist",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "templates"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.452055725967532
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "github-swarm-issue",
+      "name": "swarm-issue",
+      "category": "github",
+      "path": "github/swarm-issue.md",
+      "type": "specialist",
+      "color": "#60d1e7",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "github"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.68928813087266
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "hive-mind-swarm-memory-manager",
+      "name": "swarm-memory-manager",
+      "category": "hive-mind",
+      "path": "hive-mind/swarm-memory-manager.md",
+      "type": "specialist",
+      "color": "#14cd42",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "hive-mind"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.587143937189392
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "github-swarm-pr",
+      "name": "swarm-pr",
+      "category": "github",
+      "path": "github/swarm-pr.md",
+      "type": "specialist",
+      "color": "#cc1fc3",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "github"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.699282683933643
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "github-sync-coordinator",
+      "name": "sync-coordinator",
+      "category": "github",
+      "path": "github/sync-coordinator.md",
+      "type": "specialist",
+      "color": "#fda3d0",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "github"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.471205112288294
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "swarm-syncpulse design enhancement swarm coordinator",
+      "name": "SyncPulse Design Enhancement Swarm Coordinator",
+      "category": "swarm",
+      "path": "swarm/syncpulse-design-enhancement.md",
+      "type": "specialist",
+      "color": "#f169bb",
+      "description": "4-agent hierarchical swarm orchestrating design system enhancement and glassmorphism integration for SyncPulse sales pages. Coordinates Design System Architect, Component Enhancement Specialist, Animation Effects Specialist, and Sales Page Optimizer through shared memory namespace.",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "swarm"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.414838388719754
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "swarm-syncpulse sales enhancement task orchestrator",
+      "name": "SyncPulse Sales Enhancement Task Orchestrator",
+      "category": "swarm",
+      "path": "swarm/syncpulse-sales-enhancement.md",
+      "type": "specialist",
+      "color": "#8098c1",
+      "description": "4-phase task breakdown for design system enhancement swarm. Defines concrete tasks for Design System Architect, Component Specialist, Animation Specialist, and Sales Optimizer agents with memory coordination, blocking gates, and dependency sequencing.",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "swarm"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.397741459201132
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "architecture-system-architect",
+      "name": "system-architect",
+      "category": "architecture",
+      "path": "architecture/system-design/arch-system-design.md",
+      "type": "specialist",
+      "color": "#e79df5",
+      "description": "Expert agent for system architecture design, patterns, and high-level technical decisions",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "architecture"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.408429084168523
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "templates-task-orchestrator",
+      "name": "task-orchestrator",
+      "category": "templates",
+      "path": "templates/orchestrator-task.md",
+      "type": "specialist",
+      "color": "#e484e0",
+      "description": "Central coordination agent for task decomposition, execution planning, and result synthesis",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "templates"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.65825475532319
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "testing-tdd-london-swarm",
+      "name": "tdd-london-swarm",
+      "category": "testing",
+      "path": "testing/tdd-london-swarm.md",
+      "type": "specialist",
+      "color": "#532e21",
+      "description": "TDD London School specialist for mock-driven development within swarm coordination",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "testing"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.586399548147314
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "testing-tdd-london-swarm",
+      "name": "tdd-london-swarm",
+      "category": "testing",
+      "path": "testing/unit/tdd-london-swarm.md",
+      "type": "specialist",
+      "color": "#6e1642",
+      "description": "TDD London School specialist for mock-driven development within swarm coordination",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "testing"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.522795264384589
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "v3-test-architect",
+      "name": "test-architect",
+      "category": "v3",
+      "path": "v3/test-architect.md",
+      "type": "specialist",
+      "color": "#f80c44",
+      "description": "Testing and quality assurance specialist",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "v3"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.502228499899661
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "custom-test-long-runner",
+      "name": "test-long-runner",
+      "category": "custom",
+      "path": "custom/test-long-runner.md",
+      "type": "specialist",
+      "color": "#b6cdb",
+      "description": "Test agent that can run for 30+ minutes on complex tasks",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "custom"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.316309735886287
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "core-tester",
+      "name": "tester",
+      "category": "core",
+      "path": "core/tester.md",
+      "type": "specialist",
+      "color": "#f87a90",
+      "description": "Comprehensive testing and quality assurance specialist",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "core"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.679398492776913
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "optimization-topology optimizer",
+      "name": "Topology Optimizer",
+      "category": "optimization",
+      "path": "optimization/topology-optimizer.md",
+      "type": "specialist",
+      "color": "#90c66f",
+      "description": "Dynamic swarm topology reconfiguration and communication pattern optimization",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "optimization"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.568443055268389
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "sublinear-trading-predictor",
+      "name": "trading-predictor",
+      "category": "sublinear",
+      "path": "sublinear/trading-predictor.md",
+      "type": "specialist",
+      "color": "#e045c9",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "sublinear"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.545695829624398
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "v3-typescript-specialist",
+      "name": "typescript-specialist",
+      "category": "v3",
+      "path": "v3/typescript-specialist.md",
+      "type": "specialist",
+      "color": "#440ef2",
+      "description": "TypeScript development specialist",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "v3"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.410751510319852
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "v3-v3-integration-architect",
+      "name": "v3-integration-architect",
+      "category": "v3",
+      "path": "v3/v3-integration-architect.md",
+      "type": "specialist",
+      "color": "#725b9e",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "v3"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.4537367505706955
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "v3-v3-memory-specialist",
+      "name": "v3-memory-specialist",
+      "category": "v3",
+      "path": "v3/v3-memory-specialist.md",
+      "type": "specialist",
+      "color": "#2f4274",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "v3"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.672651958126416
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "v3-v3-performance-engineer",
+      "name": "v3-performance-engineer",
+      "category": "v3",
+      "path": "v3/v3-performance-engineer.md",
+      "type": "specialist",
+      "color": "#77a68c",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "v3"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.365300306691845
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "v3-v3-queen-coordinator",
+      "name": "v3-queen-coordinator",
+      "category": "v3",
+      "path": "v3/v3-queen-coordinator.md",
+      "type": "specialist",
+      "color": "#d57dae",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "v3"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.513640806834124
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "v3-v3-security-architect",
+      "name": "v3-security-architect",
+      "category": "v3",
+      "path": "v3/v3-security-architect.md",
+      "type": "specialist",
+      "color": "#d3024e",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "v3"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.4736257174331415
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.512Z"
+    },
+    {
+      "id": "hive-mind-worker-specialist",
+      "name": "worker-specialist",
+      "category": "hive-mind",
+      "path": "hive-mind/worker-specialist.md",
+      "type": "specialist",
+      "color": "#4b9f8b",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "hive-mind"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.4874048970015545
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    },
+    {
+      "id": "github-workflow-automation",
+      "name": "workflow-automation",
+      "category": "github",
+      "path": "github/workflow-automation.md",
+      "type": "specialist",
+      "color": "#9d1a91",
+      "description": "|",
+      "capabilities": [],
+      "use_cases": [],
+      "difficulty": "intermediate",
+      "estimated_time": "variable",
+      "tags": [
+        "github"
+      ],
+      "related_agents": [],
+      "prerequisites": [],
+      "integrations": [],
+      "stats": {
+        "views": 0,
+        "uses": 0,
+        "rating": 4.325017112593995
+      },
+      "version": "1.0.0",
+      "lastUpdated": "2026-09-30T06:27:29.511Z"
+    }
+  ],
+  "search": {
+    "indexes": [
+      "name",
+      "description",
+      "category",
+      "tags",
+      "capabilities",
+      "use_cases"
+    ],
+    "filters": [
+      "category",
+      "difficulty",
+      "capabilities",
+      "type",
+      "rating"
+    ]
+  },
+  "stats": {
+    "totalAgents": 100,
+    "categoriesCount": 24,
+    "capabilitiesCount": 30,
+    "averageRating": 4.5,
+    "lastUpdated": "2026-09-30T06:27:29.512Z"
+  }
+}
