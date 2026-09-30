@@ -1,13 +1,13 @@
 # Fused Gaming Agents Catalog
 
-Complete inventory of all 80+ specialized AI agents available in the Fused Gaming ecosystem.
+Complete inventory of all 89 specialized AI agents available in the Fused Gaming ecosystem.
 
 ## Quick Summary
 
-- **Total Agents**: 80+
+- **Total Agents**: 89
 - **Active Status**: 100%
 - **Source Repository**: Fused-Gaming/agents
-- **Categories**: 24
+- **Categories**: 25
 - **Last Updated**: 2026-09-30
 
 ## Agents by Category
@@ -209,7 +209,36 @@ System analysis and insight generation
 - Insight extraction
 - Reporting
 
-### Specialized Categories (5 agents)
+### Legal Services (9 agents)
+Legal case management, evidence verification, and litigation support agents
+- Case management and workflow coordination
+- Evidence provenance tracking and verification
+- Filing quality assurance and compliance
+- Legal research and authority verification
+- Order safety and compliance checking
+- Correspondence and communication review
+- Civil motion and criminal procedure handling
+
+**Agents**:
+- **Case Architect** - Builds and maintains canonical matter records, procedural posture, deadlines, routes, and blockers
+- **Evidence Auditor** - Audits evidence provenance, integrity, chronology, authentication, privilege, and privacy
+- **Filing QA** - Performs filing-packet quality control and blocks unsafe or incomplete packets
+- **Form Specialist** - Locates and audits official judicial/local forms with revision tracking
+- **Research Verifier** - Verifies statutes, rules, opinions, and binding/persuasive status
+- **Order Safety Reviewer** - Runs order-safety gate before any outbound action
+- **Correspondence Reviewer** - Reviews correspondence for approval state, privilege, and order safety
+- **Civil Motion Specialist** - Screens civil motion practice and builds candidate deadlines
+- **Criminal Recovery Specialist** - Organizes criminal-matter status and property-return work
+
+**Use Cases**:
+- Case management and tracking
+- Evidence integrity verification
+- Filing compliance and QA
+- Legal research verification
+- Court order compliance
+- Litigation workflow support
+
+### Other Categories (5 agents)
 
 **SONA Framework** (1)
 - SONA specification implementation
@@ -234,7 +263,7 @@ System analysis and insight generation
 - **Architecture** (0) - System architecture agents
 - **DevOps** (0) - DevOps and infrastructure
 - **Documentation** (0) - Documentation generation
-- **Specialized** (0) - Domain-specific agents
+- **Specialized** (0) - Specialized domain agents
 
 ## Agents by Capability
 
@@ -349,7 +378,7 @@ registry.agents.filter(a => a.status === "active")
 - Other: 22 agents (27%)
 
 ### By Status
-- Active: 80 agents (100%)
+- Active: 89 agents (100%)
 - Beta: 0 agents
 - Deprecated: 0 agents
 
@@ -369,6 +398,7 @@ agent-prompts/
 ├── templates/          # Templates (9)
 ├── flow-nexus/         # Flow orchestration (9)
 ├── consensus/          # Consensus (7)
+├── legal/              # Legal services (9)
 ├── swarm/              # Swarm (5)
 ├── optimization/       # Optimization (5)
 ├── sublinear/          # Sublinear (5)

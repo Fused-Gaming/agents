@@ -3,10 +3,10 @@
     "version": "1.0.0",
     "name": "Fused Gaming Agents Marketplace",
     "description": "Central catalog of all available AI agents and agent prompt templates in the Fused Gaming ecosystem",
-    "lastUpdated": "2026-09-30T06:45:00Z",
+    "lastUpdated": "2026-09-30T08:00:00Z",
     "source": "Fused-Gaming/agents",
-    "totalAgents": 80,
-    "totalCategories": 24,
+    "totalAgents": 89,
+    "totalCategories": 25,
     "agents": [
       {
         "id": "github-api-manager",
@@ -249,6 +249,105 @@
         "author": "Fused Gaming",
         "license": "Apache-2.0",
         "tags": ["analysis", "reporting", "insights"]
+      },
+      {
+        "id": "case-architect",
+        "name": "Case Architect",
+        "category": "legal",
+        "status": "active",
+        "description": "Builds and maintains the canonical matter record, procedural posture, deadlines, routes, blockers, and next-action queue",
+        "capabilities": ["case-management", "evidence-tracking", "workflow-coordination", "deadline-management"],
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "tags": ["legal", "case-management", "litigation-support"]
+      },
+      {
+        "id": "evidence-auditor",
+        "name": "Evidence Auditor",
+        "category": "legal",
+        "status": "active",
+        "description": "Audits evidence provenance, integrity, chronology, contradictions, authentication, privilege, privacy, and exhibit readiness",
+        "capabilities": ["evidence-verification", "provenance-tracking", "integrity-checking", "compliance"],
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "tags": ["legal", "evidence", "litigation-support"]
+      },
+      {
+        "id": "filing-qa",
+        "name": "Filing QA",
+        "category": "legal",
+        "status": "active",
+        "description": "Performs filing-packet quality control and blocks unsafe or incomplete packets",
+        "capabilities": ["quality-assurance", "filing-verification", "compliance-checking", "safety-validation"],
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "tags": ["legal", "filing", "quality-assurance"]
+      },
+      {
+        "id": "form-specialist",
+        "name": "Form Specialist",
+        "category": "legal",
+        "status": "active",
+        "description": "Locates and audits official judicial/local forms, provenance, revision state, population, attachments, and filing blockers",
+        "capabilities": ["form-management", "provenance-tracking", "revision-control", "compliance"],
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "tags": ["legal", "forms", "compliance"]
+      },
+      {
+        "id": "research-verifier",
+        "name": "Research Verifier",
+        "category": "legal",
+        "status": "active",
+        "description": "Verifies statutes, rules, published opinions, local rules, standing orders, court guidance, and binding/persuasive status",
+        "capabilities": ["legal-research", "authority-verification", "citation-validation", "jurisdiction-analysis"],
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "tags": ["legal", "research", "verification"]
+      },
+      {
+        "id": "order-safety-reviewer",
+        "name": "Order Safety Reviewer",
+        "category": "legal",
+        "status": "active",
+        "description": "Runs order-safety and the no-rogue-action gate before any outbound action; treats UNKNOWN orders as a freeze",
+        "capabilities": ["order-compliance", "safety-checking", "risk-mitigation", "action-verification"],
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "tags": ["legal", "compliance", "safety"]
+      },
+      {
+        "id": "correspondence-reviewer",
+        "name": "Correspondence Reviewer",
+        "category": "legal",
+        "status": "active",
+        "description": "Reviews outgoing correspondence and the communication log: draft/approval state, privilege, service relevance, and order safety",
+        "capabilities": ["communication-review", "privilege-protection", "compliance-checking", "approval-tracking"],
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "tags": ["legal", "communication", "compliance"]
+      },
+      {
+        "id": "civil-motion-specialist",
+        "name": "Civil Motion Specialist",
+        "category": "legal",
+        "status": "active",
+        "description": "Screens and routes civil motion practice and builds candidate deadlines that must be verified",
+        "capabilities": ["motion-management", "deadline-tracking", "anti-slapp", "civil-procedure"],
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "tags": ["legal", "civil-procedure", "motion-practice"]
+      },
+      {
+        "id": "criminal-recovery-specialist",
+        "name": "Criminal Recovery Specialist",
+        "category": "legal",
+        "status": "active",
+        "description": "Organizes criminal-matter status and property-return (asset recovery) work as draft-only packets behind approval gates",
+        "capabilities": ["asset-recovery", "criminal-procedure", "property-management", "approval-workflows"],
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "tags": ["legal", "criminal-law", "asset-recovery"]
       }
     ]
   },
@@ -273,6 +372,7 @@
     "v3",
     "core",
     "analysis",
+    "legal",
     "architecture",
     "devops",
     "documentation",
@@ -354,6 +454,11 @@
       "count": 2,
       "description": "System analysis and insight generation agents"
     },
+    "legal": {
+      "name": "Legal Services",
+      "count": 9,
+      "description": "Legal case management, evidence verification, and litigation support agents"
+    },
     "sona": {
       "name": "SONA Framework",
       "count": 1,
@@ -396,9 +501,9 @@
     }
   },
   "stats": {
-    "totalAgents": 80,
-    "totalCategories": 24,
-    "activeAgents": 80,
+    "totalAgents": 89,
+    "totalCategories": 25,
+    "activeAgents": 89,
     "betaAgents": 0,
     "deprecatedAgents": 0,
     "topCategories": [
