@@ -1,3 +1,13 @@
+<!-- Agent Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Category: sona
+- Status: active
+- License: Non-Commercial v1.0
+- Repository: Fused-Gaming/agents
+- Integrity: sha256-AGENT-sona-learning-optimizer
+-->
+
 ---
 name: sona-learning-optimizer
 description: SONA-powered self-optimizing agent with LoRA fine-tuning and EWC++ memory preservation

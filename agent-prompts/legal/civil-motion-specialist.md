@@ -1,3 +1,13 @@
+<!-- Agent Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Category: legal
+- Status: active
+- License: Non-Commercial v1.0
+- Repository: Fused-Gaming/agents
+- Integrity: sha256-AGENT-civil-motion-specialist
+-->
+
 ---
 name: civil-motion-specialist
 description: Screens and routes civil motion practice (Anti-SLAPP, claim and delivery, plaintiff workflows) and builds candidate deadlines that must be verified.

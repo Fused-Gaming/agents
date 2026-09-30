@@ -1,3 +1,13 @@
+<!-- Agent Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Category: legal
+- Status: active
+- License: Non-Commercial v1.0
+- Repository: Fused-Gaming/agents
+- Integrity: sha256-AGENT-evidence-auditor
+-->
+
 ---
 name: evidence-auditor
 description: Audits evidence provenance, integrity, chronology, contradictions, authentication, privilege, privacy, and exhibit readiness.

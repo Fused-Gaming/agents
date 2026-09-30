@@ -1,3 +1,13 @@
+<!-- Agent Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Category: analysis
+- Status: active
+- License: Non-Commercial v1.0
+- Repository: Fused-Gaming/agents
+- Integrity: sha256-AGENT-analyze-code-quality
+-->
+
 ---
 name: code-analyzer
 description: Advanced code quality analysis agent for comprehensive code reviews and improvements

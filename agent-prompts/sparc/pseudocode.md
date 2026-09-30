@@ -1,3 +1,13 @@
+<!-- Agent Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Category: sparc
+- Status: active
+- License: Non-Commercial v1.0
+- Repository: Fused-Gaming/agents
+- Integrity: sha256-AGENT-pseudocode
+-->
+
 ---
 name: pseudocode
 description: SPARC Pseudocode phase specialist for algorithm design

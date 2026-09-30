@@ -1,3 +1,13 @@
+<!-- Agent Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Category: optimization
+- Status: active
+- License: Non-Commercial v1.0
+- Repository: Fused-Gaming/agents
+- Integrity: sha256-AGENT-resource-allocator
+-->
+
 ---
 name: Resource Allocator
 description: Adaptive resource allocation, predictive scaling and intelligent capacity planning
