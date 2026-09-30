@@ -7,12 +7,16 @@
  * with metadata for all agents. Extensible for future enhancements.
  */
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Configuration
 const AGENTS_DIR = path.join(__dirname, '../agent-prompts');
-const OUTPUT_FILE = path.join(__dirname, '../marketplace.json');
+const OUTPUT_FILE = path.join(__dirname, '../docs/reference/marketplace.json');
 const MARKETPLACE_TEMPLATE = {
   "marketplace": {
     "version": "1.0.0",
@@ -287,8 +291,8 @@ function generateMarketplace() {
 }
 
 // Run if executed directly
-if (require.main === module) {
+if (import.meta.url === `file://${process.argv[1]}`) {
   generateMarketplace();
 }
 
-module.exports = { generateMarketplace, scanAgents, generateAgentEntry };
+export { generateMarketplace, scanAgents, generateAgentEntry };
